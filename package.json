@@ -1,0 +1,24 @@
+{
+  "name": "mini-boot-camp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fernandocgomez/js-code-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fernandocgomez/js-code-challenge/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/Fernandocgomez/js-code-challenge#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
+}

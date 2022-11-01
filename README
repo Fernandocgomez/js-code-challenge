@@ -1,0 +1,60 @@
+FIRST THING YOU DO IS RUN "npm i" ON THE TERMINAL.
+
+You are going to be coding a movie directory. The two custom data types you will be working are:
+
+Movie
+{
+    id: "000000x01",
+    title: "Bat-Man"
+    reviews: [
+        {
+            id: "000000x02",
+            rate: 4.3
+        },
+        {
+            id: "000000x03",
+            rate: 4.1
+        }
+    ]
+}
+
+Review
+{
+    id: "000000x03",
+    rate: 4.1
+}
+
+Tip: Check the file name db.js on the root directory. It contains all the movies and the reviews your code will be interacting with.
+
+FAQ:
+
+How to run the test suite?
+On the terminal type "npm test". If you change a file, the test will refresh the test suite. There is no need to run this command every time you make changes to you your code. 
+
+In what order should I do the work?
+You can code any of the function in any order. They don't depend on each other.
+
+Can I change the number of parameters on my functions? 
+NO!
+
+Can I rename my functions?
+No!
+
+My functions should console.log?
+No! All the functions should RETURN RETURN RETURN a value. This means that every function should have at least one return inside.
+
+Do I have to call my function to test it? 
+No, if you are running "npm test" the test will tell you if your function passed the test.
+
+TIP: READ THE ERRORS YOU ARE GETTING ON THE TERMINAL. GOOGLE THEM. TRY TO INTERPRET THEM.
+
+db stands for database. It is an array with movies. Every movie should have reviews associated to it.
+
+- getAllMovies(db); 
+  - It should return an array with all the movies from the dummy database.
+
+- getMovieById(db, id);
+  - It should return a movie based on the id passed as second parameter.
+
+- getMovieAvgReviewRate(db, id);
+  - should return the total average review rate. This is a number. Example: 3.333
